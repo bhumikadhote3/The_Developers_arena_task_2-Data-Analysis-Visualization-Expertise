@@ -1,0 +1,21 @@
+pandas==2.2.1
+numpy==1.27.4
+matplotlib==3.9.2
+seaborn==0.12.3
+openpyxl==3.1.5
+fpdf==1.7.2
+
+
+To install all dependencies in a virtual environment:
+
+python -m venv venv
+venv\Scripts\activate      # For Windows
+pip install -r requirements.txt
+
+
+After that, anyone can install all required packages by running:
+
+pip install -r requirements.txt
+
+
+This ensures your project runs correctly on another machine.
